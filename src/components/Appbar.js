@@ -40,13 +40,6 @@ const Appbar = ({ onRefresh }) => (
             <RefreshButton onClick={onRefresh}>
                 Click to refresh
             </RefreshButton>
-            {/* <Button 
-                variant="outlined" 
-                color="inherit"
-                onClick={onRefresh}
-            >
-                Click to refresh
-            </Button> */}
         </BlackToolbar>
     </AppBar>
 );

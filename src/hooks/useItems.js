@@ -11,7 +11,7 @@ const fetchData = () => {
         .then(res => res.json())
         // Use a fallback value (empty list)
         // to signal problems with the request
-        .catch(e => console.error(e) && [])
+        .catch(e => console.error(e) || [])
         // Uncomment the following line to 
         // see the Fallback component :)
         // .then(() => []);

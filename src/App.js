@@ -11,9 +11,6 @@ import ItemsGrid from './components/ItemsGrid';
 // Hooks
 import useItems from './hooks/useItems';
 
-// Static assets
-import './App.css';
-
 // The App
 function App() {
   const [ items, fetchItems ] = useItems();

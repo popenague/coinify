@@ -17,6 +17,7 @@ const ItemCard = (props) => {
                 component="img"
                 height="240"
                 image={imageUrl}
+                loading="lazy"
                 alt={''}
             />
             <CardContent>
@@ -35,9 +36,9 @@ const ItemCard = (props) => {
 };
 
 ItemCard.propTypes = {
-    data: {
-        id: PropTypes.string.isRequired
-    }
+    dish: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    measurement: PropTypes.string.isRequired
 };
 
 export default ItemCard;
