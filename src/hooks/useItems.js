@@ -1,7 +1,7 @@
 // Core dependencies
 import { useState, useCallback } from 'react';
 
-// Constants
+// Hard-wired endpoint url
 const ENDPOINT = 'https://random-data-api.com/api/food/random_food?size=16';
 
 // Data fetch helper

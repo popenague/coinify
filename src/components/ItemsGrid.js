@@ -4,7 +4,6 @@ import * as React from 'react';
 // UI components
 import Grid from '@mui/material/Grid';
 import CircularProgress from '@mui/material/CircularProgress';
-import Masonry from '@mui/lab/Masonry';
 
 // Custom components
 import ItemCard from './ItemCard';
