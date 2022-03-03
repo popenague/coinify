@@ -1,4 +1,4 @@
-# coinify
+# Coinify
 Task from Coinify
 
 ## Getting started
