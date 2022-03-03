@@ -4,6 +4,7 @@ import * as React from 'react';
 // UI components
 import Grid from '@mui/material/Grid';
 import CircularProgress from '@mui/material/CircularProgress';
+import Masonry from '@mui/lab/Masonry';
 
 // Custom components
 import ItemCard from './ItemCard';
@@ -16,7 +17,7 @@ const ItemsGrid = ({items}) => {
       return <CircularProgress size={60} />;
     }
   
-    // Did we get any items?
+    // Did we get any items from the request?
     if (0 === items.length) {
       return <Fallback />;
     }
@@ -25,7 +26,7 @@ const ItemsGrid = ({items}) => {
     return (
       <Grid container spacing={3}>
         {items.map(item => (
-          <Grid key={item.id} item xs={3}>
+          <Grid item key={item.id} xs={12} sm={4} xl={2}>
             <ItemCard {...item} />
           </Grid>
         ))}

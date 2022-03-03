@@ -20,9 +20,6 @@ const ItemCard = (props) => {
                 alt={''}
             />
             <CardContent>
-                {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    Random image!
-                </Typography> */}
                 <Typography variant="h5" component="div">
                     {dish}
                 </Typography>
